@@ -1,0 +1,6 @@
+name: alzheimer-drug-ml
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - -r requirements.txt
