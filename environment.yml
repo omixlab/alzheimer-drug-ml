@@ -1,6 +1,19 @@
 name: alzheimer-drug-ml
+channels:
+  - bioconda
+  - rdkit
+  - mordred
+  - conda-forge
+  - msys2
 dependencies:
-  - python=3.8
+  - python=3.7
+  - jupyter
   - pip
+  - rdkit
+  - mordred
+  - m2-bash
+  - m2-gzip
   - pip:
-    - -r requirements.txt
+     - git+https://github.com/samoturk/mol2vec
+     - -r requirements.txt
+    
