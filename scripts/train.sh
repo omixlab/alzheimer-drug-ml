@@ -12,7 +12,8 @@ while read PUBCHEM_BIOASSAY_ID; do
                     --estimators $ALGORITHM \
                     --threads 16
  
-                cd ../../../../../
+                cd ../../../../../ 
+                done
  
         done
  
