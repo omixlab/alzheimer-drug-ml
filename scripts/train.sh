@@ -17,4 +17,4 @@ while read PUBCHEM_BIOASSAY_ID; do
  
         done
  
-done < ../../../pubchem_ids
+done < data/raw/pubchem_ids
