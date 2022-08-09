@@ -1,0 +1,11 @@
+{
+	"name": "alzheimer-drug-ml",
+	"description": "",
+	"models": [
+		{
+			"name": "1285",
+			"model": "data/train/1285/morgan-2048/extra_tree/1285_model.pickle",
+			"preprocessor": "data/preprocessing/1285/morgan-2048/1285_preprocessor.pickle"
+		}
+	]
+}

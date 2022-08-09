@@ -1,0 +1,12 @@
+assay_id,feature_set,algorithm,accuracy,recall,precision,f1,roc_auc,model_path,processor_path
+1285,morgan-1024,extra_tree,75.72,74.87,75.45,75.16,82.31,data/train/1285/morgan-1024/extra_tree/1285_model.pickle,data/preprocessing/1285/morgan-1024/1285_preprocessor.pickle
+1276,morgan-1024,extra_tree,84.81,86.74,84.28,85.49,92.24,data/train/1276/morgan-1024/extra_tree/1276_model.pickle,data/preprocessing/1276/morgan-1024/1276_preprocessor.pickle
+1460,morgan-2048,extra_tree,88.71,89.09,88.35,88.72,95.23,data/train/1460/morgan-2048/extra_tree/1460_model.pickle,data/preprocessing/1460/morgan-2048/1460_preprocessor.pickle
+1239,morgan-2048,rf,81.94,83.31,81.44,82.37,89.43,data/train/1239/morgan-2048/rf/1239_model.pickle,data/preprocessing/1239/morgan-2048/1239_preprocessor.pickle
+B3DB,morgan-2048,extra_tree,87.8,90.18,86.08,88.08,95.0,data/train/B3DB/morgan-2048/extra_tree/B3DB_model.pickle,data/preprocessing/B3DB/morgan-2048/B3DB_preprocessor.pickle
+602250,morgan-1024,rf,58.21,56.41,58.89,57.62,63.16,data/train/602250/morgan-1024/rf/602250_model.pickle,data/preprocessing/602250/morgan-1024/602250_preprocessor.pickle
+624040,morgan-2048,rf,76.66,70.85,78.92,74.67,82.49,data/train/624040/morgan-2048/rf/624040_model.pickle,data/preprocessing/624040/morgan-2048/624040_preprocessor.pickle
+1468,morgan-1024,extra_tree,84.16,82.44,85.38,83.88,91.82,data/train/1468/morgan-1024/extra_tree/1468_model.pickle,data/preprocessing/1468/morgan-1024/1468_preprocessor.pickle
+624125,descriptors,extra_tree,76.35,71.12,79.01,74.86,82.76,data/train/624125/descriptors/extra_tree/624125_model.pickle,data/preprocessing/624125/descriptors/624125_preprocessor.pickle
+596,morgan-1024,extra_tree,81.03,80.98,80.98,80.98,88.82,data/train/596/morgan-1024/extra_tree/596_model.pickle,data/preprocessing/596/morgan-1024/596_preprocessor.pickle
+588852,morgan-1024,extra_tree,78.8,74.53,80.54,77.42,85.24,data/train/588852/morgan-1024/extra_tree/588852_model.pickle,data/preprocessing/588852/morgan-1024/588852_preprocessor.pickle
