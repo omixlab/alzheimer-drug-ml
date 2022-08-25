@@ -3,9 +3,54 @@
 	"description": "",
 	"models": [
 		{
-			"name": "1285",
+			"name": "Primary screen for compounds that inhibit Alzheimer's amyloid precursor protein (APP) translation",
 			"model": "data/train/1285/morgan-2048/extra_tree/1285_model.pickle",
 			"preprocessor": "data/preprocessing/1285/morgan-2048/1285_preprocessor.pickle"
+		},
+		{
+			"name": "Primary screen for compounds that activate Alzheimer's amyloid precursor", 
+			"model": "data/train/1276/morgan-1024/extra_tree/1276_model.pickle",
+			"preprocessor": "data/preprocessing/1276/morgan-1024/1276_preprocessor.pickle"
+		},
+		{
+			"name": "High Throughput Screen to Identify Compounds that increase expression of NF-kB in Human Neuronal Cells - Primary Screen",
+			"model": "data/train/1239/morgan-2048/extra_tree/1239_model.pickle",
+			"preprocessor": "data/preprocessing/1239/morgan-2048/1239_preprocessor.pickle"
+		},
+		{
+			"name": "Full deck counterscreen for antagonists of the human M1 muscarinic receptor (CHRM1): Fluorescence-based cell-based high throughput screening assay to identify nonselective inhibitors and assay artifacts using the parental CHOK1 cell line",	
+			"model": "data/train/602250/morgan-1024/rf/602250_model.pickle",
+			"preprocessor": "data/preprocessing/602250/morgan-1024/602250_preprocessor.pickle"
+		},
+		{
+			"name": "Fluorescence-based cell-based primary high throughput screening assay to identify antagonists of the human cholinergic receptor, muscarinic 5 (CHRM5)",
+            "model": "data/train/624040/morgan-2048/rf/624040_model.pickle",
+			"preprocessor": "data/preprocessing/624040/morgan-2048/624040_preprocessor.pickle"
+		},
+		{
+			"name": "qHTS for Inhibitors of Tau Fibril Formation, Fluorescence Polarization",
+			"model":"data/train/1468/morgan-1024/extra_tree/1468_model.pickle",
+			"preprovessor": "data/preprocessing/1468/morgan-1024/1468_preprocessor.pickle"
+		},
+		{
+			"name":"Fluorescence-based cell-based primary high throughput screening assay to identify antagonists of the human cholinergic receptor, muscarinic 4 (CHRM4)",
+			"model": "data/train/624125/descriptors/extra_tree/624125_model.pickle",
+			"preprocessor": "data/preprocessing/624125/descriptors/624125_preprocessor.pickle"	
+		},
+		{
+			"name": "qHTS Assay for Tau Filament Binding",
+			"model": "data/train/596/morgan-1024/extra_tree/596_model.pickle",
+			"preprocessor": "data/preprocessing/596/morgan-1024/596_preprocessor.pickle"
+		},
+		{
+			"name": "Fluorescence-based cell-based primary high throughput screening assay to identify antagonists of the human M1 muscarinic receptor (CHRM1)",
+			"model": "data/train/588852/morgan-1024/extra_tree/588852_model.pickle",
+			"preprocessor": "data/preprocessing/588852/morgan-1024/588852_preprocessor.pickle"
+		},
+		{
+			"name": "Blood-brain barrier permiability",
+			"model": "data/train/B3DB/morgan-2048/extra_tree/B3DB_model.pickle",
+			"preprocessor": "data/preprocessing/B3DB/morgan-2048/B3DB_preprocessor.pickle"
 		}
 	]
 }
