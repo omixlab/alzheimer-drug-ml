@@ -1,5 +1,6 @@
 while read PUBCHEM_BIOASSAY_ID; do
  
+        #for FEATURE_SET in morgan-1024; do
         for FEATURE_SET in descriptors morgan-1024 morgan-2048 mol2vec; do
  
                 mkdir -p data/preprocessing/$PUBCHEM_BIOASSAY_ID/$FEATURE_SET

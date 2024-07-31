@@ -1,0 +1,8 @@
+name: alzheimer-drug-vina
+channels:
+  - conda-forge
+  - rdkit
+dependencies:
+  - vina
+  - plip
+  - rdkit

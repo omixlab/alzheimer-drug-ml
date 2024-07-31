@@ -1,0 +1,6 @@
+name: alzheimer-drug-prepare-docking
+channels:
+  - conda-forge
+  - insilichem
+dependencies:
+  - autodocktools-prepare

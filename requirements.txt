@@ -1,1 +1,2 @@
 git+https://github.com/omixlab/bambu-v2
+biopandas
